@@ -15,13 +15,35 @@ h1 {
     font-size: 3em;
 }
 
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5 em;
+}
+
+h4 {
+    font-size: 1.15em;
+}
+
 nav, h2 {
     font-size: 1.5em;
 }
 
 
 /* -------------------- ROOT VARIABLES --------------------------------------- */
-
+:root {
+    font-family: "Inter", serif;
+    Teal:#4CA7C0;
+    Purple: #484FB7;
+    Lavender: #6B8FE7;
+    Yellow: #E9BB57; 
+    Pink:#D9526F;
+    Dark-gray:#1E1E1E; 
+    White:#ffffff; 
+    
+}
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
